@@ -5,5 +5,5 @@ fi
 # Build front with yarn.
 cd $BASE_PATH/../
 yarn
-echo "yarn build --mode $1"
-yarn build --mode $1
+echo "yarn build --mode 'production'"
+yarn build --mode 'production'
